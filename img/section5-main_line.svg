@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204 5" width="204" height="5">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #242930 } 
+	</style>
+	<g id="5">
+		<path id="line" class="shp0" d="M2 2L203 2L203 4L2 4L2 2Z" />
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1542 381" width="1542" height="381">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #00b9ee;stroke-width: 2 } 
+	</style>
+	<g id="4">
+		<g id="chart Orange">
+			<path id="Фигура 1" class="shp0" d="M1.88 350.61C1.88 350.61 130.61 158.34 272 327C354.56 425.49 408.46 354.07 452.39 278C527.45 148.02 577.55 142.56 674.45 248.99C747.35 329.05 863.75 378.4 976 187C976 187 1035.19 63.16 1204 118C1328.86 158.56 1539 2 1539 2" />
+		</g>
+	</g>
+</svg>

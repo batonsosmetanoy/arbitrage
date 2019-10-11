@@ -1,0 +1,368 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  width: 100%;
+  height: 3270px;
+}
+
+.wrapper-inner {
+  width: 1498px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 63px;
+
+  background-image: url("../img/header-bg_screenshots.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ...............................HEADER.............................. */
+
+header {
+  height: 637px;
+}
+
+.x6-column {
+  width: 570px;
+  float: left;
+}
+
+.logo {
+  margin-bottom: 75px;
+}
+
+.text {
+  color: #bdbdbd;
+  letter-spacing: 0.7px;
+}
+
+.highlight {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #f99406;
+  text-shadow: 1px 1px 5px #f99406;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: uppercase;
+
+  margin-top: -8px;
+  margin-bottom: -4px;
+  letter-spacing: 1.6px;
+}
+
+header form {
+  margin-top: 63px;
+}
+
+input.email {
+  position: absolute;
+  height: 55px;
+  width: 375px;
+  padding-left: 27px;
+  border: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  font-size: 14px;
+  color: #afafaf;
+  letter-spacing: 0.7px;
+}
+
+input.submit {
+  width: 190px;
+  height: 55px;
+  background-color: #f99406;
+  border: 0px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-left: 375px;
+
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.7px;
+}
+
+input.submit:hover {
+  background-color: #f7a83a;
+}
+
+input.submit:active {
+  background-color: #db8000;
+}
+
+header>img {
+  margin-left: 92px;
+}
+
+
+/* ............................SECTION 2 - SLOGANS.............................. */
+
+section.slogans {
+  height: 230px;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+div.slogan {
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+div.slogan:nth-child(2) {
+  margin-top: 40px;
+}
+
+div.slogan:nth-child(4) {
+  margin-top: 50px;
+}
+
+div.slogan:nth-child(6) {
+  margin-top: 44px;
+}
+
+p.icon-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin-bottom: -15px;
+}
+
+section.slogans>img {
+  margin-top: 144px;
+  height: 4px;
+}
+
+
+/* ............................SECTION 3 - AUTHOR.............................. */
+
+section.author {
+  height: 731px;
+  margin-bottom: 131px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  background-image: url("../img/section3-rectangle.svg"),
+                    url("../img/section3-light.png");
+  background-repeat: no-repeat,
+                      no-repeat;
+  background-position: bottom right 25%,
+                       bottom left;
+}
+
+
+p.description {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  color: #bdbdbd;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.x4-column {
+  width: 390px;
+  margin-top: 259px;
+}
+
+section.author>img.authors_photo {
+  height: 476px;
+  width: 369px;
+
+  margin-top: 194px;
+}
+
+section.author>img.decoration {
+  position: absolute;
+  margin-top: 355px;
+}
+
+section.author>img.decoration-light {
+  
+}
+
+/* ............................SECTION 4 - CHARTS.............................. */
+
+
+section.charts {
+  height: 625px;
+}
+section.charts>img.decoration{
+  margin-left: -63px;
+}
+
+section.charts>img.chart {
+  width: 98.7vw;
+  position: absolute;
+  left: 50.7%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  margin-top: 110px;
+}
+
+section.charts>img.plot {
+  filter: invert(54%) sepia(86%) saturate(1691%)
+  hue-rotate(2deg)brightness(105%) contrast(96%);
+}
+
+section.charts>h2.title {
+  margin-top: 16px;
+}
+
+
+.x3-column {
+  width: 220px;
+  height: 180px;
+  float: left;
+  position: relative;
+
+  background-image: url("../img/section4-point.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.number {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 52px;
+  letter-spacing: 0.7px;
+  opacity: 0.05;
+  margin: 0px 0px -55px 0px;
+}
+
+.questions {
+  margin-left: 22px;
+}
+
+.first {
+  margin-top: 221px;
+}
+
+.second {
+  margin-top: 135px;
+  margin-left: 87px;
+}
+
+.third {
+  margin-top: 247px;
+  margin-left: -10px;
+}
+
+.fourth {
+  margin-top: 126px;
+  margin-left: 18px;
+}
+
+.fifth {
+  width: 154px;
+  margin-top: -236px;
+  margin-left: 249px;
+}
+
+
+/* ...........................SECTION 5 - DOWNLOAD............................. */
+
+section.download {
+  height: 833px;
+
+  background-image: url("../img/section5-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+section.download img {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 47px;
+  margin-bottom: 20px;
+}
+
+.x2-column {
+  width: 125px;
+}
+
+.x2-column .text {
+  margin-top: 10px;
+}
+
+.time, .separator {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 52px;
+  letter-spacing: 0.7px;
+}
+
+.time {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.inactive {
+  opacity: 0.11;
+}
+
+
+/* ...........................FOOTER............................. */
+
+footer {
+  height: 83px;
+  background-color: #070c13;
+}
+
+footer {
+  font-size: 14px;
+}
+
+footer>div>p.text {
+  padding-top: 35px;
+}
