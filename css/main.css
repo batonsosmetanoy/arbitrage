@@ -4,6 +4,10 @@ body {
   line-height: 24px;
   font-weight: 300;
   color: #ffffff;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 * {
@@ -11,17 +15,13 @@ body {
 }
 
 .wrapper {
-  background-image: url("../img/bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
   width: 100%;
-  height: 3270px;
 }
 
 .wrapper-inner {
-  width: 1498px;
+  max-width: 1498px;
+  min-width: 1170px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 63px;
@@ -32,9 +32,10 @@ body {
 }
 
 .container {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 /* ...............................HEADER.............................. */
@@ -213,10 +214,6 @@ section.author>img.decoration {
   margin-top: 355px;
 }
 
-section.author>img.decoration-light {
-  
-}
-
 /* ............................SECTION 4 - CHARTS.............................. */
 
 
@@ -365,4 +362,43 @@ footer {
 
 footer>div>p.text {
   padding-top: 35px;
+}
+
+
+/* .............................MEDIA........................... */
+
+@media (max-width: 1485px) {
+
+  section.slogans>img {
+    display: none;
+  }
+
+  section.slogans {
+    justify-content: space-around;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  section.charts .chart  {
+    display: none;
+  }
+
+  .x3-column {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 70px;
+    width: 270px;
+    background-position: top left;
+  }
+
+  .number {
+    margin-left: 50px;
+  }
+
+  .questions {
+    margin-left: 75px;
+  }
+
 }
